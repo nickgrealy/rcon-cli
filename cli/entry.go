@@ -54,7 +54,7 @@ func Start(hostPort string, password string, in io.Reader, out io.Writer) {
 		}
 
 		if reqId != respReqId {
-			fmt.Fprintln(out, "Weird. This response is for another request.")
+			fmt.Fprintln(out, "Weird. This response is for another request.", resp)
 		}
 
 		fmt.Fprintln(out, resp)
