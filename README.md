@@ -12,7 +12,7 @@ goreleaser --snapshot --rm-dist
 cd dist/goreleaserdocker433191651
 docker build --tag nickgrealy/rcon-cli .
 docker login
-docker push nickgrealy/rcon-cli
+docker push nickgrealy/rcon-cli:latest
 ```
 
 Then...
