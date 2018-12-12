@@ -3,8 +3,12 @@ A little RCON cli based on james4k's RCON library for golang.
 ## Building on Mac
 
 ```sh
+mkdir -p ~/go/src/github.com/nickgrealy
+cd ~/go/src/github.com/nickgrealy
+git clone https://github.com/nickgrealy/rcon-cli.git
+cd rcon-cli
 brew install goreleaser
-goreleaser
+goreleaser --snapshot --rm-dist
 ```
 
 ## Installation
