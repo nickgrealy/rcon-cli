@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/itzg/rcon-cli/cmd"
+import "github.com/nickgrealy/rcon-cli/cmd"
 
 func main() {
 	cmd.Execute()
