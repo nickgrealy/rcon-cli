@@ -1,8 +1,6 @@
 project_name: rcon-cli
 release:
-  github:
-    owner: itzg
-    name: rcon-cli
+  disable: true
 builds:
 - goos:
   - linux
